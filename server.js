@@ -21,7 +21,7 @@ try {
 
 // Create OpenAI configuration
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: process.env.OPENAI_API_KEY,
 })
 
 // Create OpenAI API client
